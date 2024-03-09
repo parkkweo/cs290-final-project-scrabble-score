@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Scrabble Score</title>
+    
+        <link rel="stylesheet" href="style.css" />
+        <script src="index.js" defer></script>
+      </head>
+      <body>
+        <header>
+          <h1 class="site-title"><a href="#">Scrabble Score</a></h1>
+        </header>
+    
+        <nav class="navbar">
+          <ul class="navlist">
+            <li class="navitem"><a href="index.html">Game</a></li>
+            <li class="navitem"><a href="log.html">High Scores</a></li>
+          </ul>
+        </nav>
+
+
+
+        <main>
+            <section id="main-page">
+
+                <button id="new-game-button" type ="button"> <!-- NEW GAME BUTTON -->
+                    <a>New Game</a>
+                </button>
+
+                <div id="current-game"> <!-- Current game -->
+                    
+                    <div id="enter-word-container"> <!-- Enter word -->
+                        <label class="input-word-label">Enter Word: </label>
+                        <div class="input-element">
+                            <input class="word-input">
+                        </div>
+                    </div>
+
+                    <div id="value-container"> <!--  Value -->
+                        <label class="output-value-label">Value: </label>
+                        <div class="line-output-element">
+                            <output class="value-output">
+                        </div>
+                    </div>
+
+                    <button id="play-word-button" type="button"> <!-- Play word -->
+                        <a>Play Word</a>
+                    </button>
+
+                    <button id="discard-button" type="button"> <!-- Discard -->
+                        <a>Discard</a>
+                    </button>
+
+                    <div id="score-container"> <!-- Total Player Score -->
+                        <label class="output-score-label">Total Player Score: </label>
+                        <div class="line-output-element">
+                            <output class="score-output">
+                        </div>
+                    </div>
+
+                    <div id="prev-word-container"> <!-- Previous Words -->
+                        <label class="output-word-label">Previous Words: </label>
+                        <div class="box-output-element">
+                            <output class="word-output">
+                        </div>
+                    </div>
+
+                    <button id="finish-game-button" type="button"> <!-- Finish Game -->
+                        <a>Finish Game</a>
+                    </button>
+
+                </div>
+            </section>
+        </main>
+
+    </body>
+</html>
